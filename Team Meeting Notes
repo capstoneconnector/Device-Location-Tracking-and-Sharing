@@ -5,3 +5,22 @@ Team Meeting Notes
 Topics discussed: Platform, What to do with data after trip ends, Maximum Group size, What markers?, etc. 
 Progress Made: Meet new team members, Assumptions are made,
 What to do next: Next our team is to meet with the Client to gather the requirements for the project. 
+
+Client Meeting: 09/21/18 12pm in BC182
+
+- Our project will be a proof of concept for additional functionality for an already-developed app by 14Eleven called The Traveler
+- The Traveler allows people on tours to track their routes, as well as collect media and geotag them along those routes
+- Part of the project is for us to discover the best way of performing the task ourselves, but we were restricted to Java/Swift and working with Azure
+- The intervals for real-time sharing should be a setting, but will default to every 5 seconds
+- Another goal is to upload the data as GeoJSON data real-time, instead of uploading at the end, which the app does now.
+- Max group size to start will be 5 or 6, but should be scaleable up to 20
+- Find a way to avoid recording data while the user is inactive (standing still)
+- Possible shareable media includes pictures, videos, audio clips, and notes
+- Project will be done in Android first, and if time allows, will be done in iOS as well. iOS is not mandatory to complete
+- We will most likely be using the Azure blob, as that is where the current GeoJSON data and shared media is stored
+- Kyle is willing to provide the schema for the database and the key for the in-app purchases for the Traveler
+
+- Meeting times:
+-- In class Tues and Thurs
+-- Generally free friday at noon or 12:30
+-- Keep in contact with scope of feasible work
