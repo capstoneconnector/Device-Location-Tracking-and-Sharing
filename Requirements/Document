@@ -1,7 +1,81 @@
 Device Location Tracking and Sharing
 Requirements Document
+(Link to Google Doc in readme for formatted version)
 
--Project Description
---The Device Location Tracking and Sharing app is a proof of concept for 14Eleven Development’s current app, The Traveler. 
+Project Description
+  The Device Location Tracking and Sharing app is a proof of concept for 14Eleven Development’s current app, The Traveler. 
   While The Traveler allows users to track their routes and geo-mapped media markers, our app will allow users to sync their 
   routes with other users that share a pre-defined group with them.
+
+User classes and characteristics
+  Tourists
+    Average user, syncs with group, takes tour, and can view others and their media
+  Group creator
+    Creates pre-approved group
+  Path uploader
+    Imports paths from external sources
+    
+Technical constraints
+  The application needs an internet connection to access data to be able to work properly.
+  The application device needs to be able to receive a clear GPS signal in order to work properly.
+  The application needs to be able to work correctly on different Android devices.
+  The application needs to get its information from Azure blob and/or Azure Cloud storage.
+  The application needs to be coded natively, using Java for Android and Swift for iOS.
+  
+Use cases
+  (Use case image located in Requirements folder)
+  @startuml
+  left to right direction
+  actor Tourist as tourist
+  actor :Group Creator: as creator
+  actor Uploader as uploader
+
+
+  tourist -> (Create Account)
+  creator -> (Create Account)
+  uploader -> (Create Account)
+
+
+  tourist -> (Log In)
+  creator -> (Log In)
+  uploader -> (Log In)
+
+
+  tourist --> (Sync with other users)
+  tourist --> (Take tracked tour)
+  tourist --> (View other users in real time)
+  tourist --> (Upload media on tour)
+  tourist --> (View others' media on tour)
+  tourist --> (View tour data after tour)
+
+
+  creator --> (Create group of pre-approved users)
+  creator --> (Add users to group)
+  creator --> (Remove users from group)
+
+
+  uploader --> (Import routes from external programs, like Google Maps)
+  @enduml
+
+Functional requirements
+  High Priority
+    Group creation - Users must be able to create a group to sync with before the tour begins
+    Group syncing - Users must be able to sync with each other within their pre-created groups
+  Medium Priority
+    Media markers - Users must be able to add media markers to their tours
+  Low Priority
+    External sources - Users must be able to import paths from external sources
+    
+Non-functional requirements
+  High Priority
+    Retained records - Routes have to be accessible by the user after the tour ends
+    Real time - The routes should update based on the time the user sets in the settings, or defaults to 5 seconds
+  Medium Priority
+    Connection fallback - Path data will be stored on the device if wifi connection is lost and kept until restored
+  Low Priority
+    Recording efficiency - Data is not recorded while the user is standing in place for an extended period of time
+  
+Assumptions
+  Implementation details (eg. how users sync with each other) will be up to our interpretation (confirmed)
+  It is acceptable to work on the Android version of the application first
+    Kyle confirmed, and further stated that an iOS version is not entirely necessary, though it would be nice
