@@ -1,0 +1,10 @@
+10/21/2018 Notes
+For most of this meeting, we discussed the basis for our UML diagram, how best to proceed with next week's meeting, and the colloquium that Nick attended.
+We came up with a few possible classes for the diagram, which would be the user class, media class, route class, trip class, and group class.
+We also discussed the possibility of the media class to have a subclass for each type, but we will decide that once we see how it is structured in the database.
+We will be emailing Kyle soon to set up a time for our next client meeting, hopefully on Friday the 26th at 12:30, and we also have a few further questions for him.
+However, most of the meeting will consist of us presenting our work.
+For the colloquium, a few interesting points were made. We believed that the fact that they had to recreate a tool that has already been 
+built from scratch and found it difficult was relevant to us, because the first part of our project will likely be to recreate
+the pre-existing functionality of the Traveler app. It was also enlightening to see how an actual company deals with its clients, and we learned
+some about time management that we believe will be helpful in our project.
