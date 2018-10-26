@@ -61,10 +61,10 @@ Use Cases
                             The user has a good GPS signal.
                             The user has started a trip.
   Post-Condition(s): The tourist can see a visual representation on their device of their location and the location of others in the group.
-  Basic Path: 1. Open Traveler App
-                   2. Login in using Google, Facebook, etc.
-                   3. Join Group
-                   4. Start Trip 
+  Basic Path:   1. Open Traveler App
+                2. Login in using Google, Facebook, etc.
+                3. Join Group
+                4. Start Trip 
 
   Use Case Name: Upload Media on Tour
   Actors: Tourist
