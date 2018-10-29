@@ -1,0 +1,7 @@
+Client Meeting: 10/28/18 12:30pm in BC182
+This week was our meeting with our client. The bulk of the notes will be uploaded soon, but here are my notes that I took on the side.
+- While the application stores its information in GeoJSON format, that information stays as lat/long/bearing/etc. information while the tour is still occurring.
+- In case of user-to-user desync, it would be a good idea to implement some kind of "exponential backoff" logic so that the application isn't constantly trying to reconnect if doing so is impossible.
+- A user should be able to toggle on or off which other users' paths they want to see.
+- The ability to do as mentioned above, or to see another user's shared media, should be allowed or denied based on the submitting user.
+We also clarified some terminology with the client, and set a standard monthly meeting time for the second-to-last Friday of the month, at 12:30pm in his office.
