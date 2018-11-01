@@ -12,4 +12,7 @@ https://github.com/Ngilbert21/Device-Location-Tracking-and-Sharing/blob/master/T
 Requirements Document
 https://docs.google.com/document/d/1sXX7U5wLNdk_zyVgKwghwi6Si9b9chKLsdhyoyMtjyk/edit?usp=sharing
 
+Presentation 10/31
+https://docs.google.com/presentation/d/1HpF1cGRHLAyq3B2NvxQeMKRo8WlcRQ6ZqGGTRqsBwYY/edit#slide=id.g46a13428d0_0_31
+
 Link to Repositories:
