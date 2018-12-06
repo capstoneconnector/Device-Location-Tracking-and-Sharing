@@ -18,5 +18,8 @@ https://docs.google.com/presentation/d/1HpF1cGRHLAyq3B2NvxQeMKRo8WlcRQ6ZqGGTRqsB
 Presentation 11/28
 https://docs.google.com/presentation/d/1X7wSjrXULoot8ktzgxTH0daiKBPwxulhQJ959H0WMiY/edit?usp=sharing
 
+Presentation 12/7
+https://docs.google.com/presentation/d/1F3ISeLTvpbe1WYIQ0X6IwFhmP3yNyJidQl2gUOAxGis/edit?usp=sharing
+
 Link to Repositories:
 https://github.com/bradleystrayer/Device-Location-Tracking-and-Sharing-Code
