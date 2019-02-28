@@ -1,0 +1,5 @@
+During the meeting with kykle we discussed our issues writing to Azure.
+After discussing those issues we got a general idea for a solution for the issue, following this we discussed our plans for the active location tracking.
+for ths we have decided that storing the location on a geojson and gradually updating the active locations/path after some time passes.
+This is to keep the path active until the trip is ended wrather than only showing the path at the end of the trip.
+A new meeting date was also discussed and finalized for Wednesday the 20.
