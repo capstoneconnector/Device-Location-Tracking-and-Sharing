@@ -34,3 +34,5 @@
 - Keys for the four services (listed above) should be received from the maintainer and added to LoginActivity (Google Sign-In), MapsActivity and PreviousToursActivity (Azure), and google_maps_api.xml (Google Maps)
 ## Future Improvements
 - Will be updated over time
+## 500 Errors
+- In cases where the server is throwing "500 Internal Server Error", check to make sure that the Azure app services's Node.JS version is up to date. This problem is usually caused by the server interpreting a character in the query incorrectly, so it may be helpful to rewrite the code that calls the query as well to be safe. This problem has occurred twice with no change in the code, so it is good to keep note of it and know where to look.
