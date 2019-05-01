@@ -35,5 +35,6 @@
 ## Future Improvements
 - Real-Time Syncing
   - The most simple way to pull this off would be to pull the current trip's GeoJSON data from the database for every person, and update the user's view to reflect that data. This may prove inefficient however, as the map would have to load similar data for many different people all at one time.
+  - The idea has also been tossed around to repurpose one of Android's multiplayer gaming libraries to institute a drop-in/drop-out lobby in order to start the trip. A reference to these findings can be located here: https://developers.google.com/games/services/android/realtimeMultiplayer#invite_players_option
 ## 500 Errors
 - In cases where the server is throwing "500 Internal Server Error", check to make sure that the Azure app services's Node.JS version is up to date. This problem is usually caused by the server interpreting a character in the query incorrectly, so it may be helpful to rewrite the code that calls the query as well to be safe. This problem has occurred twice with no change in the code, so it is good to keep note of it and know where to look.
